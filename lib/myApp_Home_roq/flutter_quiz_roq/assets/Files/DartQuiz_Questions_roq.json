@@ -1,0 +1,477 @@
+{
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is Dart?",
+      "correct_answer": "Dart is a object-oriented programming language",
+      "incorrect_answers": [
+        "Dart is used to create a frontend user interfaces",
+        "Both of the these",
+        "None of the these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What will be the output of this program :void main() {    int num;    print(num); }",
+      "correct_answer": "Error",
+      "incorrect_answers": [
+
+        "Null",
+        "Num",
+        "None of these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of these is not a keyword in dart?",
+      "correct_answer": "scan",
+      "incorrect_answers": [
+        "factory",
+        "yield",
+        "export"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which framework uses dart?",
+      "correct_answer": "Flutter",
+      "incorrect_answers": [
+        "Python",
+        "Java",
+        "React"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dart is an?",
+      "correct_answer": "All of the these",
+      "incorrect_answers": [
+        "Open-source",
+        "Asynchronous",
+        "Programming language"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dart is originally developed by?",
+      "correct_answer": "Google",
+      "incorrect_answers": [
+        "Microsoft",
+        "IBM",
+        "Facebook"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The _______ function is a predefined method in Dart.",
+      "correct_answer": "main()",
+      "incorrect_answers": [
+        "declare()",
+        "list()",
+        "return()"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dart is an Object-Oriented language.",
+      "correct_answer": "Yes",
+      "incorrect_answers": [
+        "No"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "________ is a real-time representation of any entity.",
+      "correct_answer": "Object",
+      "incorrect_answers": [
+        "Class",
+        "Method",
+        "None of the these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the extension of Dart file?",
+      "correct_answer": ".dart",
+      "incorrect_answers": [
+        ".py",
+        ".java",
+        ".drt"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following statements does not use string interpolation correctly?",
+      "correct_answer": "print('Your name in upper case is $\"me\".toUpperCase');",
+      "incorrect_answers": [
+        "print(\"Your name in upper case is ${'me'.toUpperCase()}\");",
+        "print('Your name in upper case is ${\"me\".toUpperCase()}');",
+        "All of the these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which keyword in Dart is used to create a subclass",
+      "correct_answer": "extends",
+      "incorrect_answers": [
+        "subclass","super","none of these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The programming language &#039;Swift&#039; was created to replace what other programming language?",
+      "correct_answer": "Objective-C",
+      "incorrect_answers": [
+        "C#",
+        "Ruby",
+        "C++"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Instance variables in Dart cannot be",
+      "correct_answer": "const",
+      "incorrect_answers": [
+        "final","Both of these","None of these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The print() method in Dart takes",
+      "correct_answer": "user defined multiple arguments",
+      "incorrect_answers": [
+        "a single argument","two argument","multiple argument"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which command is used to run dart file \"technologychannel.dart\"?",
+      "correct_answer": "dart technologychannel.dart",
+      "incorrect_answers": [
+        "run technologychannel.dart","d technologychannel.dart","start technologychannel.dart"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is commonly known as a dictionary or hash",
+      "correct_answer": "map",
+      "incorrect_answers": [
+        "set","list","none of these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Is Dart Case Sensitive Programming Language?",
+      "correct_answer": "Yes",
+      "incorrect_answers": [
+        "No"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "--version command is used to ?",
+      "correct_answer": "Displays VM version information",
+      "incorrect_answers": [
+        "Enables assertions","Specifies the path","Specifies where to find imported libraries"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The await keyboard works in",
+      "correct_answer":  "async function only",
+      "incorrect_answers": [
+       "sync function only","both async and sync function","none"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The package import pub commands is",
+      "correct_answer": "pub get",
+      "incorrect_answers": [
+        "pub set","pub delete","pub post"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following statements does not use string interpolation correctly? Variable name is declared as: var name = \"Me\";",
+      "correct_answer": "\" print('Your name is {name}');\",",
+      "incorrect_answers": [
+        "print(\"Your name is $name\");"," print('Your name is ${name}');","All of the these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which statement calls function fullName correctly? Given fullName is defined as:String fullName(String first, String last, [String middle]) {  return middle == null? '$first $last': '$first $middle $last';",
+      "correct_answer": "var a = fullName('First', 'Last', null);",
+      "incorrect_answers": [
+        "var a = fullName('First', 'Last', ['Middle']);","var a = fullName('First', 'Last', middle: 'Middle');"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which statement calls fullName2 correctly? Given fullName2 is defined as:String fullName2({String first = 'F', String last = 'L', String middle = null}) {  return middle == null? '$first $last': '$first $middle $last';}",
+      "correct_answer": "var a = fullName2(first: 'First', last: 'Last');",
+      "incorrect_answers": [
+        "var a = fullName2('First', 'Last', 'Middle');","var a = fullName2('First', 'Last', null);"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which function declaration is correct?  ",
+     "correct_answer": "int multiply(int a, int b) => a * b;",
+      "incorrect_answers": [
+        "int multiply(a, b) => { return a * b; }","int multiply(int a, int b) => return a * b;"
+          ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The constructor in this class is correct:\nclass Point {\n  num x, y;\n  public Point(this.x, this.y);\n}",
+      "correct_answer": "No",
+      "incorrect_answers": [
+        "Yes"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The named constructor in this class is correct:\nclass Point {\n  num x, y;\n  Point(this.x, this.y);\n  Point.origin() : this(0, 0);\n}",
+      "correct_answer": "Yes",
+      "incorrect_answers": [
+        "No"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which statement is correct? Given:\nvar nums = [1, 2, 3, 4];",
+      "correct_answer": "nums.forEach(print);",
+      "incorrect_answers": [
+        "nums.forEach(print());"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which statement is correct? Given:\nvar nums = ['one', 'two', 'three'];",
+      "correct_answer": "All of the these",
+      "incorrect_answers": [
+        "nums.forEach((n) { print(n.length); });"," nums.forEach((n) => print(n.length.toString()));"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The following is correct:\nvar nums = List<num>(2);\nnums.add(1);\nnums.add(2);\nnums.add(3);",
+      "correct_answer":"No",
+      "incorrect_answers": [
+        "Yes"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "It is acceptable to add duplicate elements to a set. E.g.,\nvar names = { 'First', 'Second', 'Third' };\nnames.add('Second');",
+      "correct_answer":  "Yes",
+      "incorrect_answers": [
+       "No"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "These statements using a map are correct:\nvar seasons = { 'spring': 1, 'summer': 2 };\nseasons['autumn'] = '3';",
+      "correct_answer": "No",
+      "incorrect_answers": [
+        "Yes"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the type of this map?\nvar seasons = { 'spring': 1, 2: 'summer' };",
+      "correct_answer": " Map<Object, Object>",
+      "incorrect_answers": [
+        "Map<String, String>"," Map<dynamic, dynamic>"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dart has multiple interfaces.",
+      "correct_answer": "Yes",
+      "incorrect_answers": [
+        "No"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following command specifies where to find imported libraries.",
+      "correct_answer": "-p",
+      "incorrect_answers": [
+        "-c"," -h"," All of the these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dart programs run in _______ modes.",
+      "correct_answer": "2",
+      "incorrect_answers": [
+        "3","4","5"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "As per Grady Brooch, every object must have ________ features.",
+      "correct_answer": "3",
+      "incorrect_answers": [
+        "1","2","4"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Among the following, a Dart program is composed of _______.",
+      "correct_answer": "All of these",
+      "incorrect_answers": [
+        "Variables and Operators","Classes","Functions"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Dart, _______ is a predefined function that prints the specified value to the standard output.",
+      "correct_answer": "print()",
+      "incorrect_answers": [
+        "func()","output()","None of the these"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Dart, ________ are names given to elements in a program like variables, functions etc.",
+      "correct_answer":"Identifiers",
+      "incorrect_answers": [
+        "Keywords","Values"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following is a valid identifier in Dart?",
+      "correct_answer": "firstName",
+      "incorrect_answers": [
+        "first name","1number"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Each dart statement must end with a _______.",
+      "correct_answer": "Semicolon",
+      "incorrect_answers": [
+        "Parenthesis","Comma"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which command Upgrades all your dependencies to a newer version?",
+      "correct_answer": "pub upgrade",
+      "incorrect_answers": [
+        "pub get","pub build"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dart uses the bool keyword to represent a Boolean value.",
+      "correct_answer": "Yes",
+      "incorrect_answers": [
+        "No"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Dart programming language first appeared in the year ______.",
+      "correct_answer": "2011",
+      "incorrect_answers": [
+        "2010","2015","2018"
+      ]
+    }
+  ]}

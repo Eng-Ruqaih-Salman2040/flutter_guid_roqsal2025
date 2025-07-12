@@ -1,0 +1,110 @@
+import 'package:flutter/material.dart';
+
+void main() => runApp(TextFormField_roq());
+
+class TextFormField_roq extends StatelessWidget {
+  const TextFormField_roq({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    final appTitle = 'TextFormField roq';
+    return MaterialApp(
+      title: appTitle,
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text(appTitle),
+        ),
+        body: MyCustomForm(),
+      ),
+    );
+  }
+}
+// Create a Form widget.
+class MyCustomForm extends StatefulWidget {
+  @override
+  MyCustomFormState createState() {
+    return MyCustomFormState();
+  }
+}
+// Create a corresponding State class, which holds data related to the form.
+class MyCustomFormState extends State<MyCustomForm> {
+  // Create a global key that uniquely identifies the Form widget
+  // and allows validation of the form.
+  final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
+
+  @override
+  Widget build(BuildContext context) {
+    // Build a Form widget using the _formKey created above.
+    return
+      Container(
+          color: Colors.deepOrange,
+          alignment: Alignment.center,
+          child: Center(
+          child: Card(
+          margin: EdgeInsets.symmetric(horizontal: 35),
+    child: Padding(
+    padding: const EdgeInsets.all(20),
+    child:Form(
+      key: _formKey,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          TextFormField(
+            decoration: const InputDecoration(
+              icon: const Icon(Icons.person),
+              hintText: 'Enter your full name',
+              labelText: 'Name',
+            ),
+            validator: (value) {
+              if (value!.isEmpty) {
+                return 'Please enter some text';
+              }
+              return null;
+            },
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+              icon: const Icon(Icons.phone),
+              hintText: 'Enter a phone number',
+              labelText: 'Phone',
+            ),
+            validator: (value) {
+              if (value!.isEmpty) {
+                return 'Please enter valid phone number';
+              }
+              return null;
+            },
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+              icon: const Icon(Icons.calendar_today),
+              hintText: 'Enter your date of birth',
+              labelText: 'Dob',
+            ),
+            validator: (value) {
+              if (value!.isEmpty) {
+                return 'Please enter valid date';
+              }
+              return null;
+            },
+          ),
+          new Container(
+              padding: const EdgeInsets.only(left: 150.0, top: 40.0),
+              child: new ElevatedButton(
+                child: const Text('Submit'),
+                onPressed: () {
+                  // It returns true if the form is valid, otherwise returns false
+                  // ----->  if(_formKey.currentState != null) {  Or use !
+                  if (_formKey.currentState!.validate()) {
+                    // If the form is valid, display a Snackbar.
+                    //===>Scaffold.of(context).showSnackBar(SnackBar(content: Text('Data is in processing.')));
+                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Data is in processing.')));
+                  }
+                },
+              )),
+        ],
+      ),
+    )
+    ))));
+  }
+}

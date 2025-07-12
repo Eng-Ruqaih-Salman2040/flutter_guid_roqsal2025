@@ -1,0 +1,5 @@
+'Vs Code is ( framework /programming language / ide )',
+      'Dart extension is( .dt / .dart / .dar ).'
+          'Semicolons are ( required / optional ).',
+      'Do the dart program require a main() function to run the code ( Yes / No ).',
+      'Dart uses ( () / {} / [] ) to create a block.'

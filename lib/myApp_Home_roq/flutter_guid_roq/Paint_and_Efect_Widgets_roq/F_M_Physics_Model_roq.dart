@@ -1,0 +1,46 @@
+import 'package:flutter/material.dart';
+
+
+class PhysicalModel_Roq extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: <Widget>[
+            PhysicalModel(
+              color: Colors.deepOrange,
+              elevation: 18.0,
+              shadowColor: Colors.red,
+              borderRadius: BorderRadius.all(Radius.circular(10)),
+              child: Container(
+                width: 100,
+                height: 100,
+                color: Colors.yellow,
+              ),
+            ),
+            PhysicalModel(
+              color: Colors.deepOrange,
+              elevation: 18.0,
+              shadowColor: Colors.red,
+              shape: BoxShape.circle,
+              child: Opacity(
+                opacity: 0.75,
+                child: Container(
+                  width: 100,
+                  height: 100,
+                  color: Colors.yellow,
+                ),
+              ),
+            )
+          ],
+        ),
+      ),
+    );
+  }
+
+  const PhysicalModel_Roq({Key? key}) : super(key: key);
+}
